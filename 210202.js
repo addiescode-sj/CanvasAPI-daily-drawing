@@ -20,7 +20,7 @@
  * 
  */
 
-const draw = () => {
+const drawRect = () => {
   const canvas = document.querySelector('#beginner-rect');
   if (canvas.getContext) {
     const ctx = canvas.getContext('2d');
@@ -32,3 +32,5 @@ const draw = () => {
     ctx.fillRect(20, 30, 50, 50);
   }
 }
+
+window.addEventListener('load', drawRect);

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
   </head>
-  <body onload="draw();">
+  <body>
     <header>
       <img
         src="img/addiescodeLC.png"
@@ -18,18 +18,27 @@
     <nav>
       <ul>
         <li>
-          <a href="#day1Rect">Day1: Rectangle</a>
+          <a href="#210202">Day1: Rectangle</a>
+        </li>
+        <li>
+          <a href="#210203">Day2: Triangle</a>
         </li>
       </ul>
     </nav>
     <section class="canvas-archive">
-      <div class="day1Rect">
-        <a name="day1Rect"></a>
+      <div class="day1">
+        <a name="210202"></a>
         <canvas id="beginner-rect" width="150" height="150"
           >This is a rectangle made.</canvas
         >
       </div>
     </section>
+    <div class="day2">
+      <a name="210203"></a>
+      <canvas id="beginner-tri" width="150" height="150"
+        >This is a triangle made.</canvas
+      >
+    </div>
     <footer>
       <div class="footer-info">
         <p><strong>Addie's code</strong> Canvas practicing!</p>
@@ -38,6 +47,7 @@
 
     <!--JS Scripts-->
 
-    <script src="./day1-rectangle.js"></script>
+    <script src="./210202.js"></script>
+    <script src="./210203.js"></script>
   </body>
 </html>
